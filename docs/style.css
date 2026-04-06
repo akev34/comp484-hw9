@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 30px;
+  color: #333;
+}
+
+h1 {
+  color: #2c2c2c;
+}
+
+.subtitle {
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+/* shared section styles */
+.section {
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  max-width: 750px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Date section */
+.date-section {
+  background-color: #cce5ff;
+  border: 2px solid #66aaff;
+}
+
+.date-section h2 {
+  color: #004080;
+}
+
+/* Number conversion section */
+.conversion-section {
+  background-color: #d4edda;
+  border: 2px solid #5cb85c;
+}
+
+.conversion-section h2 {
+  color: #1a5c1a;
+}
+
+/* Math section */
+.math-section {
+  background-color: #fff3cd;
+  border: 2px solid #f0ad4e;
+}
+
+.math-section h2 {
+  color: #7a4f00;
+}
